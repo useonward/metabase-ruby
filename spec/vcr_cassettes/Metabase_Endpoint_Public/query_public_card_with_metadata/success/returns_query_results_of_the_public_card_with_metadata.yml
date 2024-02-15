@@ -52,8 +52,756 @@ http_interactions:
       Server:
       - Jetty(9.4.27.v20200227)
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJkYXRhIjp7InJvd3MiOlsKWzExOTksIjIwMTgtMTAtMjJUMDU6MDc6MDYuMDg5WiIsbnVsbCwxODIsNjgsODQuNDg5NDAzNzA0NzYxMTIsNS4wNyw4OC4xOTUxNDg1NTg4MTE5NywxNTVdLApbMTQ3NSwiMjAxOS0wNy0wM1QwMDo0MTowMy41NDFaIixudWxsLDEyOCw1Myw3NS4wODAxNjMxNDUwNDQxNywzLjAsODQuNTEzMzA0MjczNzQ3ODksMjExXSwKWzE2MzgsIjIwMTgtMDYtMDdUMTQ6MDA6MDAuMjY5WiIsbnVsbCwxMzYsNTgsMTA1LjIwNDAyMzE3MTU3MzQzLDcuMzYsMTA1Ljc5ODg5NjgwMTAzMTQ1LDIzM10sClsyOTAwLCIyMDE5LTA2LTIxVDA5OjIxOjEyLjQzNVoiLG51bGwsMTY5LDYzLDU5LjUzMTcyNjkzNDUzMjc0LDIuMzgsNTQuNjgyNTc4NDEwNzcwNjEsNDA5XSwKWzMxNTgsIjIwMTktMDktMjRUMTQ6Mjg6MDUuMjI3WiIsbnVsbCwxODgsNTEsMzMuODc3MzgyNTQ3MzE1MDksMi4xMiwzOC40NDYxMjI2ODc1MzY3NCw0NDldLApbMzQ1OSwiMjAxNy0xMC0wOVQxNToyNjozNS42NTFaIixudWxsLDE0Nyw1Myw0NC40MzE1MTQxNDE0NDQxLDEuNzgsNTMuNjc4Nzg2MTI3NzUxNTMsNDkzXSwKWzQ3NjIsIjIwMTgtMDgtMTdUMDg6NTk6MjMuNTI1WiIsbnVsbCwxMzIsMTAwLDEyNy44ODE5NzAyOTgzMzcxMSw4LjMxLDE0NC41MzE3NDc2NDM3NTQ5Myw2NTRdLApbNDk5MSwiMjAxNi0wNi0yMFQwNDo0MToxNy45WiIsbnVsbCw3NCw1MywzNC4wODUzNjE1MTU5MTAzMywwLjAsMjUuOTkzMDc3MDM4OTQ3MjI0LDY3OF0sCls1MDkxLCIyMDE5LTA2LTI0VDE0OjIxOjE1LjYxNVoiLG51bGwsMTEsNjMsMTMyLjQ1Njc5OTEzNDkyNTYzLDAuMCwxNDcuOTY5NTYzMTI0NjA4MzMsNjg2XSwKWzU3NDQsIjIwMTctMDktMDhUMDQ6MDk6NTAuOTAzWiIsbnVsbCwxOTAsNjAsODUuNzIyNzkwMTM3MTk1NTIsMy40Myw3NS45MDg3MjQ2NDQyNjUyMiw3ODRdLApbNTgxNiwiMjAxOC0wOC0yMVQwNjozMToxMy43NjFaIixudWxsLDUsMTAwLDEyNC4xMTc2NDY1Mjc1NTM0LDcuNDUsMTM3LjI0ODI5Mjg2ODg2ODU2LDc5Ml0sCls2Njg0LCIyMDE3LTEwLTE3VDExOjQ0OjQ0LjIyOVoiLG51bGwsNDUsNTcsNzguNjk5Njc4MjUzMjI3NCw1LjEyLDc5LjAyNTIyMzk1NDMzODg3LDkxMV0sCls3MDgzLCIyMDE3LTA1LTEzVDEwOjQ3OjU4LjQ0MVoiLG51bGwsMTUsNTAsMjUuMDk4NzYzNTkyNzE4OTEsMS41MSwyNi45MDg4MTkwMDkxODc5NSw5NjJdLApbNzEyMiwiMjAxOC0wNy0yOVQxOTowMjo0NC45NDhaIixudWxsLDE1LDU2LDM3LjY0ODE0NTM4OTA3ODM2NSwyLjI2LDU0Ljk4Nzc1OTM3MTAwMjAxLDk2OF0sCls3MTM0LCIyMDE4LTA4LTA2VDIzOjA0OjI1Ljc4N1oiLG51bGwsODUsNzgsNTQuOTAxMDQ3MzQ0Mjg1MjUsMy4yOSw2MC4yNDg4MDQyMDA2MjI4MSw5NjldLApbODA5MiwiMjAxNy0wOC0wNFQwMToyNzowNC4xMloiLG51bGwsMTczLDUxLDgxLjU3Njc5OTUzNTI5NzA3LDMuMjYsNzMuOTE3MTI5NzAyNzg1OTYsMTA4NF0sCls4NDY3LCIyMDE3LTEwLTA3VDEwOjM0OjI2Ljc4NFoiLG51bGwsMTU2LDU0LDIwLjQxMDUzNjA5OTM2NDEzLDAuOTIsMjMuNjgyNzU3NTQ5OTk0ODQsMTEyOF0sCls5MDUxLCIyMDE3LTEwLTA5VDA1OjE4OjIwLjg3MVoiLG51bGwsNjUsNTcsNDUuNDg1MTMxNTA5ODAwMSwyLjczLDU5Ljk0ODI0MTUxOTcxOTY0NSwxMjEzXSwKWzkyMDUsIjIwMTktMTAtMTBUMDM6Mjc6MDMuMzQyWiIsbnVsbCwxMTMsNzUsMTEwLjQ3NzI1Mzc2MTg2MDE1LDUuMjUsMTAzLjM2MDkxNzg3NDM0ODc2LDEyMjhdLApbOTM2NCwiMjAxOS0xMC0yNFQxODozODoyMS44MzhaIixudWxsLDExLDcwLDEzMi40NTY3OTkxMzQ5MjU2Myw5LjkzLDExNS4zNDEwMTI4NjY1MzcyNCwxMjQzXSwKWzkzOTIsIjIwMTktMDYtMjFUMTQ6MzQ6MTIuMTAyWiIsbnVsbCw3Niw2OSw2My44MjQyMTA2MTM2NjQ4Niw0LjE1LDUzLjgzODM1NjA2Njg3OTI4LDEyNDZdLApbOTYzOSwiMjAxNy0wOS0yN1QwNjoxOTo0Ni4zNDdaIiwyLjc3NjU4MjkwOTE2NDksMTY1LDU5LDI1LjUzNjMzMDQyNzQ2Nzk1NiwxLjQsMzcuMTY3NDUzMzc4OTg2MywxMjgwXSwKWzEwMjYzLCIyMDE4LTA3LTMxVDExOjEyOjE3LjQ4NVoiLG51bGwsMTkxLDUyLDEyOC41ODQxODUyMDU3OTMzLDcuNzIsOTUuMjY3MjgyNzQ4MjM2MTEsMTM1Ml0sClsxMDQwNiwiMjAxNi0wOC0xMVQxNjo0MjozNC4wNzJaIixudWxsLDE3Myw4Miw4MS41NzY3OTk1MzUyOTcwNywyLjM3LDEyMS42MzMwMTM3NDE2MjMyLDEzNzBdLApbMTA0MjEsIjIwMTktMDYtMDRUMDY6NTQ6NDkuNzJaIiwzLjc0NDg5Mzg5NzcxODQzMjcsMTg3LDY1LDk4Ljk3NzAwMDgzODUxNjYsNi45MywxNTkuODk0NTUzMjU0NTc4OCwxMzc1XSwKWzEwNjEzLCIyMDE5LTA5LTAxVDE1OjA0OjE4LjUyNFoiLG51bGwsMTkwLDY3LDEyOC41ODQxODUyMDU3OTMzLDAuMCw2Ni44NTc2Njg3MjM5OTcyMSwxMzk0XSwKWzEwNzUyLCIyMDE5LTA2LTIyVDA0OjQyOjQzLjA5OVoiLG51bGwsNzgsODMsNDEuNjE2OTE3Mjg0MTU5NzI2LDAuMCwyNi43NTAzMjg1OTc2Nzg2OCwxNDE3XSwKWzExMDIyLCIyMDE3LTA4LTI2VDEyOjM4OjU3LjY3NVoiLG51bGwsMTQ5LDU2LDQ2LjEwMjc2NjkxNzE4NjE2LDEuOTUsNjYuNDgyNTY4MzU4NDM2MTcsMTQ1M10sClsxMTQ4NiwiMjAxOS0wOC0xOVQwMDoxNzoyOC4xMzFaIiwxLjUwMzAzMjcwODk2MDE4ODcsMTUsNTMsMzcuNjQ4MTQ1Mzg5MDc4MzY1LDIuNDUsNTAuODU3MjEwNjEyMjUyMDI1LDE1MThdLApbMTE4NDAsIjIwMTgtMDctMTBUMTI6MDM6NDMuODI5WiIsbnVsbCwxMTUsNjEsNzcuOTExOTY0NzE4NjIxNDgsMy4xMiwzOC44MDE3Mzc1MTc3Nzk0NCwxNTcwXSwKWzEyNTczLCIyMDE5LTA2LTExVDE5OjUzOjE0Ljc3M1oiLDguODAzNzQwOTU2NTUzMDQ2LDYwLDY5LDI5LjgwMjE0NzUxODU5MTQ5LDEuMTksMjUuNjc3NTI0Nzc1ODM2MzM2LDE2NjBdLApbMTI5MjQsIjIwMTktMDktMDFUMDc6MDg6MDQuODIzWiIsbnVsbCwxMDgsNjcsNTAuMDk0ODg3ODg0OTQ1MzY1LDIuMzgsNjcuNTU1MjY5OTQ5MzIxNDYsMTcwNl0sClsxMjk4NywiMjAxOC0wNi0yMlQxNzoxMzozMS4zNDVaIixudWxsLDUsODgsMTI0LjExNzY0NjUyNzU1MzQsMC4wLDEzMS45NTE0MTE0OTczMTIwOCwxNzEzXSwKWzEzMTMzLCIyMDE5LTA4LTI5VDE4OjM1OjMzLjU3M1oiLG51bGwsNDgsNzMsMTIzLjIwODg0MjQ4NTM0MTA4LDguNjIsMTc2LjY1MDM1MTgyMDAwNDgsMTczMl0sClsxMzc1MywiMjAxOS0wNy0zMVQyMjo1ODo1MS40NTdaIixudWxsLDExLDU1LDEzMi40NTY3OTkxMzQ5MjU2Myw2LjYyLDE0My4zMDU5MDU5NzUyMzM0MywxODIyXSwKWzE0MTczLCIyMDE5LTA5LTA4VDE1OjQ4OjU5LjcwNVoiLG51bGwsNzgsNzEsNDEuNjE2OTE3Mjg0MTU5NzI2LDEuNzYsNjMuOTkzMTM4ODQ1ODMyMzU1LDE4ODFdLApbMTU2NjcsIjIwMTgtMDktMTBUMDI6NDg6MDYuMTFaIixudWxsLDgyLDU3LDYwLjg5NTQ1NzM4MDMwOTQ3LDMuODEsODkuMjU0Mjk4NDk1NTI3MTcsMjEwMF0sClsxNTc1NSwiMjAxOS0wNy0wOVQxNjozMjo0Mi44ODdaIixudWxsLDY1LDUzLDY4LjIyNzY5NzI2NDcwMDE0LDIuNzMsNTQuMjQ2Mjg0ODQ4NTM5MDcsMjExMl0sClsxNjU1OSwiMjAxNy0wNy0wM1QwMzozMzo1NC44MTVaIixudWxsLDQ0LDU4LDUwLjkwMTcwMTM2NzgzODM3LDMuMTgsMTcuNTU3MzM1MjY1Njk0NDgzLDIyMDRdLApbMTY1NjAsIjIwMTgtMDktMDFUMDc6NTQ6MjkuMDA3WiIsbnVsbCwxNTUsNzIsNDMuNzc1NzQzMTAxODI3NzYsMi43NCw4MC4xMTk3MjU5MDc2OTIzNywyMjA0XSwKWzE2NTY2LCIyMDE4LTA5LTAzVDIxOjE1OjQxLjY4NVoiLG51bGwsMTMsNTgsMTEyLjYyOTI1MzkxMTA1NTY2LDcuNzQsMTY3LjE2NTg5NTgxNTY2MDEyLDIyMDVdLApbMTc0NDUsIjIwMTktMDgtMTVUMDg6MzI6MzEuMzI2WiIsbnVsbCw5Niw3MiwxMDQuODIxNDQ4NTg1OTAzNjUsNy44Niw5Ni41NTI1MzA4NTE4OTU1OCwyMzI4XSwKWzE3NjE0LCIyMDE5LTA4LTE3VDA3OjE2OjA2LjYyNVoiLG51bGwsMTgxLDgzLDE0My44ODk0MDM3MDQ3NjExMiw1Ljc2LDI5My45MzA4MTk1MzAwMjksMjM0N10KXSwKImNvbHMiOlt7ImRlc2NyaXB0aW9uIjoiVGhpcyBpcyBhIHVuaXF1ZSBJRCBmb3IgdGhlIHByb2R1Y3QuIEl0IGlzIGFsc28gY2FsbGVkIHRoZSDigJxJbnZvaWNlIG51bWJlcuKAnSBvciDigJxDb25maXJtYXRpb24gbnVtYmVy4oCdIGluIGN1c3RvbWVyIGZhY2luZyBlbWFpbHMgYW5kIHNjcmVlbnMuIiwidGFibGVfaWQiOjIsInNwZWNpYWxfdHlwZSI6InR5cGUvUEsiLCJuYW1lIjoiSUQiLCJzZXR0aW5ncyI6bnVsbCwic291cmNlIjoiZmllbGRzIiwiZmllbGRfcmVmIjpbImZpZWxkLWlkIiwxMl0sInBhcmVudF9pZCI6bnVsbCwiaWQiOjEyLCJ2aXNpYmlsaXR5X3R5cGUiOiJub3JtYWwiLCJkaXNwbGF5X25hbWUiOiJJRCIsImZpbmdlcnByaW50IjpudWxsLCJiYXNlX3R5cGUiOiJ0eXBlL0JpZ0ludGVnZXIifSx7ImRlc2NyaXB0aW9uIjoiVGhlIGRhdGUgYW5kIHRpbWUgYW4gb3JkZXIgd2FzIHN1Ym1pdHRlZC4iLCJ0YWJsZV9pZCI6Miwic3BlY2lhbF90eXBlIjoidHlwZS9DcmVhdGlvblRpbWVzdGFtcCIsInVuaXQiOiJkZWZhdWx0IiwibmFtZSI6IkNSRUFURURfQVQiLCJzZXR0aW5ncyI6bnVsbCwic291cmNlIjoiZmllbGRzIiwiZmllbGRfcmVmIjpbImRhdGV0aW1lLWZpZWxkIixbImZpZWxkLWlkIiwxNV0sImRlZmF1bHQiXSwicGFyZW50X2lkIjpudWxsLCJpZCI6MTUsInZpc2liaWxpdHlfdHlwZSI6Im5vcm1hbCIsImRpc3BsYXlfbmFtZSI6IkNyZWF0ZWQgQXQiLCJmaW5nZXJwcmludCI6eyJnbG9iYWwiOnsiZGlzdGluY3QtY291bnQiOjk5OTgsIm5pbCUiOjAuMH0sInR5cGUiOnsidHlwZS9EYXRlVGltZSI6eyJlYXJsaWVzdCI6IjIwMTYtMDQtMzBUMTg6NTY6MTMuMzUyIiwibGF0ZXN0IjoiMjAyMC0wNC0xOVQxNDowNzoxNS42NTcifX19LCJiYXNlX3R5cGUiOiJ0eXBlL0RhdGVUaW1lIn0seyJkZXNjcmlwdGlvbiI6IkRpc2NvdW50IGFtb3VudC4iLCJ0YWJsZV9pZCI6Miwic3BlY2lhbF90eXBlIjoidHlwZS9EaXNjb3VudCIsIm5hbWUiOiJESVNDT1VOVCIsInNldHRpbmdzIjpudWxsLCJzb3VyY2UiOiJmaWVsZHMiLCJmaWVsZF9yZWYiOlsiZmllbGQtaWQiLDEwXSwicGFyZW50X2lkIjpudWxsLCJpZCI6MTAsInZpc2liaWxpdHlfdHlwZSI6Im5vcm1hbCIsImRpc3BsYXlfbmFtZSI6IkRpc2NvdW50IiwiZmluZ2VycHJpbnQiOnsiZ2xvYmFsIjp7ImRpc3RpbmN0LWNvdW50Ijo3MDEsIm5pbCUiOjAuODk4fSwidHlwZSI6eyJ0eXBlL051bWJlciI6eyJtaW4iOjAuMTcwODg5OTY2NzI1ODQzMjIsInExIjoyLjk3ODYyMjY2ODE0NTg3NDMsInEzIjo3LjMzODE4Nzc4ODY1ODIzNSwibWF4Ijo2MS42OTY4NDI2OTk2MDU3MSwic2QiOjMuMDUzNjYzMTI1MDAxOTkxLCJhdmciOjUuMTYxMjU1NTQ3NTgwMzI2fX19LCJiYXNlX3R5cGUiOiJ0eXBlL0Zsb2F0In0seyJkZXNjcmlwdGlvbiI6IlRoZSBwcm9kdWN0IElELiBUaGlzIGlzIGFuIGludGVybmFsIGlkZW50aWZpZXIgZm9yIHRoZSBwcm9kdWN0LCBOT1QgdGhlIFNLVS4iLCJ0YWJsZV9pZCI6Miwic3BlY2lhbF90eXBlIjoidHlwZS9GSyIsIm5hbWUiOiJQUk9EVUNUX0lEIiwic2V0dGluZ3MiOm51bGwsInNvdXJjZSI6ImZpZWxkcyIsImZpZWxkX3JlZiI6WyJmaWVsZC1pZCIsMTFdLCJwYXJlbnRfaWQiOm51bGwsImlkIjoxMSwidmlzaWJpbGl0eV90eXBlIjoibm9ybWFsIiwiZGlzcGxheV9uYW1lIjoiUHJvZHVjdCBJRCIsImZpbmdlcnByaW50Ijp7Imdsb2JhbCI6eyJkaXN0aW5jdC1jb3VudCI6MjAwLCJuaWwlIjowLjB9fSwiYmFzZV90eXBlIjoidHlwZS9JbnRlZ2VyIn0seyJkZXNjcmlwdGlvbiI6Ik51bWJlciBvZiBwcm9kdWN0cyBib3VnaHQuIiwidGFibGVfaWQiOjIsInNwZWNpYWxfdHlwZSI6InR5cGUvUXVhbnRpdHkiLCJuYW1lIjoiUVVBTlRJVFkiLCJzZXR0aW5ncyI6bnVsbCwic291cmNlIjoiZmllbGRzIiwiZmllbGRfcmVmIjpbImZpZWxkLWlkIiwxNF0sInBhcmVudF9pZCI6bnVsbCwiaWQiOjE0LCJ2aXNpYmlsaXR5X3R5cGUiOiJub3JtYWwiLCJkaXNwbGF5X25hbWUiOiJRdWFudGl0eSIsImZpbmdlcnByaW50Ijp7Imdsb2JhbCI6eyJkaXN0aW5jdC1jb3VudCI6NjIsIm5pbCUiOjAuMH0sInR5cGUiOnsidHlwZS9OdW1iZXIiOnsibWluIjowLjAsInExIjoxLjc1NTg4MjYwNzc2NDk4MiwicTMiOjQuODgyNjU0NTA3OTI4MDQ0LCJtYXgiOjEwMC4wLCJzZCI6NC4yMTQyNTgzODY0MDM3OTgsImF2ZyI6My43MDE1fX19LCJiYXNlX3R5cGUiOiJ0eXBlL0ludGVnZXIifSx7ImRlc2NyaXB0aW9uIjoiVGhlIHJhdywgcHJlLXRheCBjb3N0IG9mIHRoZSBvcmRlci4gTm90ZSB0aGF0IHRoaXMgbWlnaHQgYmUgZGlmZmVyZW50IGluIHRoZSBmdXR1cmUgZnJvbSB0aGUgcHJvZHVjdCBwcmljZSBkdWUgdG8gcHJvbW90aW9ucywgY3JlZGl0cywgZXRjLiIsInRhYmxlX2lkIjoyLCJzcGVjaWFsX3R5cGUiOm51bGwsIm5hbWUiOiJTVUJUT1RBTCIsInNldHRpbmdzIjpudWxsLCJzb3VyY2UiOiJmaWVsZHMiLCJmaWVsZF9yZWYiOlsiZmllbGQtaWQiLDEzXSwicGFyZW50X2lkIjpudWxsLCJpZCI6MTMsInZpc2liaWxpdHlfdHlwZSI6Im5vcm1hbCIsImRpc3BsYXlfbmFtZSI6IlN1YnRvdGFsIiwiZmluZ2VycHJpbnQiOnsiZ2xvYmFsIjp7ImRpc3RpbmN0LWNvdW50IjozNDAsIm5pbCUiOjAuMH0sInR5cGUiOnsidHlwZS9OdW1iZXIiOnsibWluIjoxNS42OTE5NDM2NzM5NzA0MzksInExIjo0OS43NDg5NDUxOTA2MDE4NCwicTMiOjEwNS40Mjk2NTc0Njk5MzEwMywibWF4IjoxNDguMjI5MDA1MjY1NTIyOTEsInNkIjozMi41MzcwNTAxMzA1NjMxNywiYXZnIjo3Ny4wMTI5NTQ2NTM1NjU0N319fSwiYmFzZV90eXBlIjoidHlwZS9GbG9hdCJ9LHsiZGVzY3JpcHRpb24iOiJUaGlzIGlzIHRoZSBhbW91bnQgb2YgbG9jYWwgYW5kIGZlZGVyYWwgdGF4ZXMgdGhhdCBhcmUgY29sbGVjdGVkIG9uIHRoZSBwdXJjaGFzZS4gTm90ZSB0aGF0IG90aGVyIGdvdmVybm1lbnRhbCBmZWVzIG9uIHNvbWUgcHJvZHVjdHMgYXJlIG5vdCBpbmNsdWRlZCBoZXJlLCBidXQgaW5zdGVhZCBhcmUgYWNjb3VudGVkIGZvciBpbiB0aGUgc3VidG90YWwuIiwidGFibGVfaWQiOjIsInNwZWNpYWxfdHlwZSI6bnVsbCwibmFtZSI6IlRBWCIsInNldHRpbmdzIjpudWxsLCJzb3VyY2UiOiJmaWVsZHMiLCJmaWVsZF9yZWYiOlsiZmllbGQtaWQiLDE2XSwicGFyZW50X2lkIjpudWxsLCJpZCI6MTYsInZpc2liaWxpdHlfdHlwZSI6Im5vcm1hbCIsImRpc3BsYXlfbmFtZSI6IlRheCIsImZpbmdlcnByaW50Ijp7Imdsb2JhbCI6eyJkaXN0aW5jdC1jb3VudCI6Nzk3LCJuaWwlIjowLjB9LCJ0eXBlIjp7InR5cGUvTnVtYmVyIjp7Im1pbiI6MC4wLCJxMSI6Mi4yNzMzNDAzODY2MDM4NTcsInEzIjo1LjMzNzI3NTMzODIxNjMwNywibWF4IjoxMS4xMiwic2QiOjIuMzIwNjY1MTM1ODkwMDMxNiwiYXZnIjozLjg3MjIxMDAwMDAwMDAwMDR9fX0sImJhc2VfdHlwZSI6InR5cGUvRmxvYXQifSx7ImRlc2NyaXB0aW9uIjoiVGhlIHRvdGFsIGJpbGxlZCBhbW91bnQuIiwidGFibGVfaWQiOjIsInNwZWNpYWxfdHlwZSI6bnVsbCwibmFtZSI6IlRPVEFMIiwic2V0dGluZ3MiOm51bGwsInNvdXJjZSI6ImZpZWxkcyIsImZpZWxkX3JlZiI6WyJmaWVsZC1pZCIsMTddLCJwYXJlbnRfaWQiOm51bGwsImlkIjoxNywidmlzaWJpbGl0eV90eXBlIjoibm9ybWFsIiwiZGlzcGxheV9uYW1lIjoiVG90YWwiLCJmaW5nZXJwcmludCI6eyJnbG9iYWwiOnsiZGlzdGluY3QtY291bnQiOjEwMDAwLCJuaWwlIjowLjB9LCJ0eXBlIjp7InR5cGUvTnVtYmVyIjp7Im1pbiI6MTIuMDYxNjAyOTM2OTIzMTE3LCJxMSI6NTIuMDA2MTQ3NjE3ODc4MTM1LCJxMyI6MTA5LjU1ODAzMDE4NDk5NzM4LCJtYXgiOjIzOC4zMjczMjAwMTcyMTUzMywic2QiOjM4LjM1OTY3NjY0ODQ3NTcxLCJhdmciOjgyLjk2MDE0ODE1MjMwODA1fX19LCJiYXNlX3R5cGUiOiJ0eXBlL0Zsb2F0In0seyJkZXNjcmlwdGlvbiI6IlRoZSBpZCBvZiB0aGUgdXNlciB3aG8gbWFkZSB0aGlzIG9yZGVyLiBOb3RlIHRoYXQgaW4gc29tZSBjYXNlcyB3aGVyZSBhbiBvcmRlciB3YXMgY3JlYXRlZCBvbiBiZWhhbGYgb2YgYSBjdXN0b21lciB3aG8gcGhvbmVkIHRoZSBvcmRlciBpbiwgdGhpcyBtaWdodCBiZSB0aGUgZW1wbG95ZWUgd2hvIGhhbmRsZWQgdGhlIHJlcXVlc3QuIiwidGFibGVfaWQiOjIsInNwZWNpYWxfdHlwZSI6InR5cGUvRksiLCJuYW1lIjoiVVNFUl9JRCIsInNldHRpbmdzIjpudWxsLCJzb3VyY2UiOiJmaWVsZHMiLCJmaWVsZF9yZWYiOlsiZmllbGQtaWQiLDldLCJwYXJlbnRfaWQiOm51bGwsImlkIjo5LCJ2aXNpYmlsaXR5X3R5cGUiOiJub3JtYWwiLCJkaXNwbGF5X25hbWUiOiJVc2VyIElEIiwiZmluZ2VycHJpbnQiOnsiZ2xvYmFsIjp7ImRpc3RpbmN0LWNvdW50Ijo5MjksIm5pbCUiOjAuMH19LCJiYXNlX3R5cGUiOiJ0eXBlL0ludGVnZXIifV0sImluc2lnaHRzIjpudWxsLCJyZXF1ZXN0ZWRfdGltZXpvbmUiOiJVVEMiLCJyZXN1bHRzX3RpbWV6b25lIjoiR01UIn0sCiJqc29uX3F1ZXJ5Ijp7fSwic3RhdHVzIjoiY29tcGxldGVkIn0=
+      encoding: UTF-8
+      string: |-
+        {
+          "data": {
+            "rows": [
+              [
+                1199,
+                "2018-10-22T05:07:06.089Z",
+                null,
+                182,
+                68,
+                84.48940370476112,
+                5.07,
+                88.19514855881197,
+                155
+              ],
+              [
+                1475,
+                "2019-07-03T00:41:03.541Z",
+                null,
+                128,
+                53,
+                75.08016314504417,
+                3,
+                84.51330427374789,
+                211
+              ],
+              [
+                1638,
+                "2018-06-07T14:00:00.269Z",
+                null,
+                136,
+                58,
+                105.20402317157343,
+                7.36,
+                105.79889680103145,
+                233
+              ],
+              [
+                2900,
+                "2019-06-21T09:21:12.435Z",
+                null,
+                169,
+                63,
+                59.53172693453274,
+                2.38,
+                54.68257841077061,
+                409
+              ],
+              [
+                3158,
+                "2019-09-24T14:28:05.227Z",
+                null,
+                188,
+                51,
+                33.87738254731509,
+                2.12,
+                38.44612268753674,
+                449
+              ],
+              [
+                3459,
+                "2017-10-09T15:26:35.651Z",
+                null,
+                147,
+                53,
+                44.4315141414441,
+                1.78,
+                53.67878612775153,
+                493
+              ],
+              [
+                4762,
+                "2018-08-17T08:59:23.525Z",
+                null,
+                132,
+                100,
+                127.88197029833711,
+                8.31,
+                144.53174764375493,
+                654
+              ],
+              [
+                4991,
+                "2016-06-20T04:41:17.9Z",
+                null,
+                74,
+                53,
+                34.08536151591033,
+                0,
+                25.993077038947224,
+                678
+              ],
+              [
+                5091,
+                "2019-06-24T14:21:15.615Z",
+                null,
+                11,
+                63,
+                132.45679913492563,
+                0,
+                147.96956312460833,
+                686
+              ],
+              [
+                5744,
+                "2017-09-08T04:09:50.903Z",
+                null,
+                190,
+                60,
+                85.72279013719552,
+                3.43,
+                75.90872464426522,
+                784
+              ],
+              [
+                5816,
+                "2018-08-21T06:31:13.761Z",
+                null,
+                5,
+                100,
+                124.1176465275534,
+                7.45,
+                137.24829286886856,
+                792
+              ],
+              [
+                6684,
+                "2017-10-17T11:44:44.229Z",
+                null,
+                45,
+                57,
+                78.6996782532274,
+                5.12,
+                79.02522395433887,
+                911
+              ],
+              [
+                7083,
+                "2017-05-13T10:47:58.441Z",
+                null,
+                15,
+                50,
+                25.09876359271891,
+                1.51,
+                26.90881900918795,
+                962
+              ],
+              [
+                7122,
+                "2018-07-29T19:02:44.948Z",
+                null,
+                15,
+                56,
+                37.648145389078365,
+                2.26,
+                54.98775937100201,
+                968
+              ],
+              [
+                7134,
+                "2018-08-06T23:04:25.787Z",
+                null,
+                85,
+                78,
+                54.90104734428525,
+                3.29,
+                60.24880420062281,
+                969
+              ],
+              [
+                8092,
+                "2017-08-04T01:27:04.12Z",
+                null,
+                173,
+                51,
+                81.57679953529707,
+                3.26,
+                73.91712970278596,
+                1084
+              ],
+              [
+                8467,
+                "2017-10-07T10:34:26.784Z",
+                null,
+                156,
+                54,
+                20.41053609936413,
+                0.92,
+                23.68275754999484,
+                1128
+              ],
+              [
+                9051,
+                "2017-10-09T05:18:20.871Z",
+                null,
+                65,
+                57,
+                45.4851315098001,
+                2.73,
+                59.948241519719645,
+                1213
+              ],
+              [
+                9205,
+                "2019-10-10T03:27:03.342Z",
+                null,
+                113,
+                75,
+                110.47725376186015,
+                5.25,
+                103.36091787434876,
+                1228
+              ],
+              [
+                9364,
+                "2019-10-24T18:38:21.838Z",
+                null,
+                11,
+                70,
+                132.45679913492563,
+                9.93,
+                115.34101286653724,
+                1243
+              ],
+              [
+                9392,
+                "2019-06-21T14:34:12.102Z",
+                null,
+                76,
+                69,
+                63.82421061366486,
+                4.15,
+                53.83835606687928,
+                1246
+              ],
+              [
+                9639,
+                "2017-09-27T06:19:46.347Z",
+                2.7765829091649,
+                165,
+                59,
+                25.536330427467956,
+                1.4,
+                37.1674533789863,
+                1280
+              ],
+              [
+                10263,
+                "2018-07-31T11:12:17.485Z",
+                null,
+                191,
+                52,
+                128.5841852057933,
+                7.72,
+                95.26728274823611,
+                1352
+              ],
+              [
+                10406,
+                "2016-08-11T16:42:34.072Z",
+                null,
+                173,
+                82,
+                81.57679953529707,
+                2.37,
+                121.6330137416232,
+                1370
+              ],
+              [
+                10421,
+                "2019-06-04T06:54:49.72Z",
+                3.7448938977184327,
+                187,
+                65,
+                98.9770008385166,
+                6.93,
+                159.8945532545788,
+                1375
+              ],
+              [
+                10613,
+                "2019-09-01T15:04:18.524Z",
+                null,
+                190,
+                67,
+                128.5841852057933,
+                0,
+                66.85766872399721,
+                1394
+              ],
+              [
+                10752,
+                "2019-06-22T04:42:43.099Z",
+                null,
+                78,
+                83,
+                41.616917284159726,
+                0,
+                26.75032859767868,
+                1417
+              ],
+              [
+                11022,
+                "2017-08-26T12:38:57.675Z",
+                null,
+                149,
+                56,
+                46.10276691718616,
+                1.95,
+                66.48256835843617,
+                1453
+              ],
+              [
+                11486,
+                "2019-08-19T00:17:28.131Z",
+                1.5030327089601887,
+                15,
+                53,
+                37.648145389078365,
+                2.45,
+                50.857210612252025,
+                1518
+              ],
+              [
+                11840,
+                "2018-07-10T12:03:43.829Z",
+                null,
+                115,
+                61,
+                77.91196471862148,
+                3.12,
+                38.80173751777944,
+                1570
+              ],
+              [
+                12573,
+                "2019-06-11T19:53:14.773Z",
+                8.803740956553046,
+                60,
+                69,
+                29.80214751859149,
+                1.19,
+                25.677524775836336,
+                1660
+              ],
+              [
+                12924,
+                "2019-09-01T07:08:04.823Z",
+                null,
+                108,
+                67,
+                50.094887884945365,
+                2.38,
+                67.55526994932146,
+                1706
+              ],
+              [
+                12987,
+                "2018-06-22T17:13:31.345Z",
+                null,
+                5,
+                88,
+                124.1176465275534,
+                0,
+                131.95141149731208,
+                1713
+              ],
+              [
+                13133,
+                "2019-08-29T18:35:33.573Z",
+                null,
+                48,
+                73,
+                123.20884248534108,
+                8.62,
+                176.6503518200048,
+                1732
+              ],
+              [
+                13753,
+                "2019-07-31T22:58:51.457Z",
+                null,
+                11,
+                55,
+                132.45679913492563,
+                6.62,
+                143.30590597523343,
+                1822
+              ],
+              [
+                14173,
+                "2019-09-08T15:48:59.705Z",
+                null,
+                78,
+                71,
+                41.616917284159726,
+                1.76,
+                63.993138845832355,
+                1881
+              ],
+              [
+                15667,
+                "2018-09-10T02:48:06.11Z",
+                null,
+                82,
+                57,
+                60.89545738030947,
+                3.81,
+                89.25429849552717,
+                2100
+              ],
+              [
+                15755,
+                "2019-07-09T16:32:42.887Z",
+                null,
+                65,
+                53,
+                68.22769726470014,
+                2.73,
+                54.24628484853907,
+                2112
+              ],
+              [
+                16559,
+                "2017-07-03T03:33:54.815Z",
+                null,
+                44,
+                58,
+                50.90170136783837,
+                3.18,
+                17.557335265694483,
+                2204
+              ],
+              [
+                16560,
+                "2018-09-01T07:54:29.007Z",
+                null,
+                155,
+                72,
+                43.77574310182776,
+                2.74,
+                80.11972590769237,
+                2204
+              ],
+              [
+                16566,
+                "2018-09-03T21:15:41.685Z",
+                null,
+                13,
+                58,
+                112.62925391105566,
+                7.74,
+                167.16589581566012,
+                2205
+              ],
+              [
+                17445,
+                "2019-08-15T08:32:31.326Z",
+                null,
+                96,
+                72,
+                104.82144858590365,
+                7.86,
+                96.55253085189558,
+                2328
+              ],
+              [
+                17614,
+                "2019-08-17T07:16:06.625Z",
+                null,
+                181,
+                83,
+                143.88940370476112,
+                5.76,
+                293.930819530029,
+                2347
+              ]
+            ],
+            "cols": [
+              {
+                "description": "This is a unique ID for the product. It is also called the “Invoice number” or “Confirmation number” in customer facing emails and screens.",
+                "table_id": 2,
+                "special_type": "type/PK",
+                "name": "ID",
+                "settings": null,
+                "source": "fields",
+                "field_ref": [
+                  "field-id",
+                  12
+                ],
+                "parent_id": null,
+                "id": 12,
+                "visibility_type": "normal",
+                "display_name": "ID",
+                "fingerprint": null,
+                "base_type": "type/BigInteger"
+              },
+              {
+                "description": "The date and time an order was submitted.",
+                "table_id": 2,
+                "special_type": "type/CreationTimestamp",
+                "unit": "default",
+                "name": "CREATED_AT",
+                "settings": null,
+                "source": "fields",
+                "field_ref": [
+                  "datetime-field",
+                  [
+                    "field-id",
+                    15
+                  ],
+                  "default"
+                ],
+                "parent_id": null,
+                "id": 15,
+                "visibility_type": "normal",
+                "display_name": "Created At",
+                "fingerprint": {
+                  "global": {
+                    "distinct-count": 9998,
+                    "nil%": 0
+                  },
+                  "type": {
+                    "type/DateTime": {
+                      "earliest": "2016-04-30T18:56:13.352",
+                      "latest": "2020-04-19T14:07:15.657"
+                    }
+                  }
+                },
+                "base_type": "type/DateTime"
+              },
+              {
+                "description": "Discount amount.",
+                "table_id": 2,
+                "special_type": "type/Discount",
+                "name": "DISCOUNT",
+                "settings": null,
+                "source": "fields",
+                "field_ref": [
+                  "field-id",
+                  10
+                ],
+                "parent_id": null,
+                "id": 10,
+                "visibility_type": "normal",
+                "display_name": "Discount",
+                "fingerprint": {
+                  "global": {
+                    "distinct-count": 701,
+                    "nil%": 0.898
+                  },
+                  "type": {
+                    "type/Number": {
+                      "min": 0.17088996672584322,
+                      "q1": 2.9786226681458743,
+                      "q3": 7.338187788658235,
+                      "max": 61.69684269960571,
+                      "sd": 3.053663125001991,
+                      "avg": 5.161255547580326
+                    }
+                  }
+                },
+                "base_type": "type/Float"
+              },
+              {
+                "description": "The product ID. This is an internal identifier for the product, NOT the SKU.",
+                "table_id": 2,
+                "special_type": "type/FK",
+                "name": "PRODUCT_ID",
+                "settings": null,
+                "source": "fields",
+                "field_ref": [
+                  "field-id",
+                  11
+                ],
+                "parent_id": null,
+                "id": 11,
+                "visibility_type": "normal",
+                "display_name": "Product ID",
+                "fingerprint": {
+                  "global": {
+                    "distinct-count": 200,
+                    "nil%": 0
+                  }
+                },
+                "base_type": "type/Integer"
+              },
+              {
+                "description": "Number of products bought.",
+                "table_id": 2,
+                "special_type": "type/Quantity",
+                "name": "QUANTITY",
+                "settings": null,
+                "source": "fields",
+                "field_ref": [
+                  "field-id",
+                  14
+                ],
+                "parent_id": null,
+                "id": 14,
+                "visibility_type": "normal",
+                "display_name": "Quantity",
+                "fingerprint": {
+                  "global": {
+                    "distinct-count": 62,
+                    "nil%": 0
+                  },
+                  "type": {
+                    "type/Number": {
+                      "min": 0,
+                      "q1": 1.755882607764982,
+                      "q3": 4.882654507928044,
+                      "max": 100,
+                      "sd": 4.214258386403798,
+                      "avg": 3.7015
+                    }
+                  }
+                },
+                "base_type": "type/Integer"
+              },
+              {
+                "description": "The raw, pre-tax cost of the order. Note that this might be different in the future from the product price due to promotions, credits, etc.",
+                "table_id": 2,
+                "special_type": null,
+                "name": "SUBTOTAL",
+                "settings": null,
+                "source": "fields",
+                "field_ref": [
+                  "field-id",
+                  13
+                ],
+                "parent_id": null,
+                "id": 13,
+                "visibility_type": "normal",
+                "display_name": "Subtotal",
+                "fingerprint": {
+                  "global": {
+                    "distinct-count": 340,
+                    "nil%": 0
+                  },
+                  "type": {
+                    "type/Number": {
+                      "min": 15.691943673970439,
+                      "q1": 49.74894519060184,
+                      "q3": 105.42965746993103,
+                      "max": 148.22900526552291,
+                      "sd": 32.53705013056317,
+                      "avg": 77.01295465356547
+                    }
+                  }
+                },
+                "base_type": "type/Float"
+              },
+              {
+                "description": "This is the amount of local and federal taxes that are collected on the purchase. Note that other governmental fees on some products are not included here, but instead are accounted for in the subtotal.",
+                "table_id": 2,
+                "special_type": null,
+                "name": "TAX",
+                "settings": null,
+                "source": "fields",
+                "field_ref": [
+                  "field-id",
+                  16
+                ],
+                "parent_id": null,
+                "id": 16,
+                "visibility_type": "normal",
+                "display_name": "Tax",
+                "fingerprint": {
+                  "global": {
+                    "distinct-count": 797,
+                    "nil%": 0
+                  },
+                  "type": {
+                    "type/Number": {
+                      "min": 0,
+                      "q1": 2.273340386603857,
+                      "q3": 5.337275338216307,
+                      "max": 11.12,
+                      "sd": 2.3206651358900316,
+                      "avg": 3.8722100000000004
+                    }
+                  }
+                },
+                "base_type": "type/Float"
+              },
+              {
+                "description": "The total billed amount.",
+                "table_id": 2,
+                "special_type": null,
+                "name": "TOTAL",
+                "settings": null,
+                "source": "fields",
+                "field_ref": [
+                  "field-id",
+                  17
+                ],
+                "parent_id": null,
+                "id": 17,
+                "visibility_type": "normal",
+                "display_name": "Total",
+                "fingerprint": {
+                  "global": {
+                    "distinct-count": 10000,
+                    "nil%": 0
+                  },
+                  "type": {
+                    "type/Number": {
+                      "min": 12.061602936923117,
+                      "q1": 52.006147617878135,
+                      "q3": 109.55803018499738,
+                      "max": 238.32732001721533,
+                      "sd": 38.35967664847571,
+                      "avg": 82.96014815230805
+                    }
+                  }
+                },
+                "base_type": "type/Float"
+              },
+              {
+                "description": "The id of the user who made this order. Note that in some cases where an order was created on behalf of a customer who phoned the order in, this might be the employee who handled the request.",
+                "table_id": 2,
+                "special_type": "type/FK",
+                "name": "USER_ID",
+                "settings": null,
+                "source": "fields",
+                "field_ref": [
+                  "field-id",
+                  9
+                ],
+                "parent_id": null,
+                "id": 9,
+                "visibility_type": "normal",
+                "display_name": "User ID",
+                "fingerprint": {
+                  "global": {
+                    "distinct-count": 929,
+                    "nil%": 0
+                  }
+                },
+                "base_type": "type/Integer"
+              }
+            ],
+            "insights": null,
+            "requested_timezone": "UTC",
+            "results_timezone": "GMT"
+          },
+          "json_query": {},
+          "status": "completed"
+        }
   recorded_at: Sun, 07 Jun 2020 06:41:28 GMT
 recorded_with: VCR 6.0.0

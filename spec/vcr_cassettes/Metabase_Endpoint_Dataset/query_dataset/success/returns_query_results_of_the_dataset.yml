@@ -116,10 +116,20 @@ http_interactions:
       Server:
       - Jetty(9.4.27.v20200227)
     body:
-      encoding: ASCII-8BIT
+      encoding: UTF-8
       string: |-
         [
-        {"CREATED_AT":"2019-02-11T21:40:27.892","PRODUCT_ID":14,"USER_ID":1,"QUANTITY":2,"ID":1,"TAX":2.07,"TOTAL":39.718145389078366,"DISCOUNT":null,"SUBTOTAL":37.648145389078365}
+          {
+            "CREATED_AT": "2019-02-11T21:40:27.892",
+            "PRODUCT_ID": 14,
+            "USER_ID": 1,
+            "QUANTITY": 2,
+            "ID": 1,
+            "TAX": 2.07,
+            "TOTAL": 39.718145389078366,
+            "DISCOUNT": null,
+            "SUBTOTAL": 37.648145389078365
+          }
         ]
   recorded_at: Fri, 25 Dec 2020 07:43:35 GMT
 recorded_with: VCR 6.0.0

@@ -110,8 +110,96 @@ http_interactions:
       Server:
       - Jetty(9.4.27.v20200227)
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        W3sibmFtZSI6Ik91ciBhbmFseXRpY3MiLCJpZCI6InJvb3QiLCJwYXJlbnRfaWQiOm51bGwsImVmZmVjdGl2ZV9sb2NhdGlvbiI6bnVsbCwiZWZmZWN0aXZlX2FuY2VzdG9ycyI6W10sImNhbl93cml0ZSI6dHJ1ZX0seyJkZXNjcmlwdGlvbiI6bnVsbCwiYXJjaGl2ZWQiOmZhbHNlLCJzbHVnIjoiYWRtaW5fdXNlciVFMyU4MSU5NSVFMyU4MiU5MyVFMyU4MSVBRSVFMyU4MyU4RiVFMyU4MiU5QSVFMyU4MyVCQyVFMyU4MiVCRCVFMyU4MyU4QSVFMyU4MyVBQiVFMyU4MiVCMyVFMyU4MyVBQyVFMyU4MiVBRiVFMyU4MiVCNyVFMyU4MyVBNyVFMyU4MyVCMyIsImNvbG9yIjoiIzMxNjk4QSIsImNhbl93cml0ZSI6dHJ1ZSwibmFtZSI6IkFkbWluIFVzZXLjgZXjgpPjga7jg5Hjg7zjgr3jg4rjg6vjgrPjg6zjgq/jgrfjg6fjg7MiLCJwZXJzb25hbF9vd25lcl9pZCI6MSwiaWQiOjEsImxvY2F0aW9uIjoiLyJ9LHsiZGVzY3JpcHRpb24iOm51bGwsImFyY2hpdmVkIjpmYWxzZSwic2x1ZyI6Im1ldGFiYXNlcnVieSIsImNvbG9yIjoiIzUwOUVFMyIsImNhbl93cml0ZSI6dHJ1ZSwibmFtZSI6Ik1ldGFiYXNlUnVieSIsInBlcnNvbmFsX293bmVyX2lkIjpudWxsLCJpZCI6MiwibG9jYXRpb24iOiIvIn0seyJkZXNjcmlwdGlvbiI6IkF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkIGNhcmRzLiIsImFyY2hpdmVkIjpmYWxzZSwic2x1ZyI6Im9yZGVyc19kYXNoYm9hcmQiLCJjb2xvciI6IiNBOTg5QzUiLCJjYW5fd3JpdGUiOnRydWUsIm5hbWUiOiJPcmRlcnMgRGFzaGJvYXJkIiwicGVyc29uYWxfb3duZXJfaWQiOm51bGwsImlkIjo1LCJsb2NhdGlvbiI6Ii8ifSx7ImRlc2NyaXB0aW9uIjoiQXV0b21hdGljYWxseSBnZW5lcmF0ZWQgY2FyZHMuIiwiYXJjaGl2ZWQiOmZhbHNlLCJzbHVnIjoicGVvcGxlX2Rhc2hib2FyZCIsImNvbG9yIjoiIzlDQzE3NyIsImNhbl93cml0ZSI6dHJ1ZSwibmFtZSI6IlBlb3BsZSBEYXNoYm9hcmQiLCJwZXJzb25hbF9vd25lcl9pZCI6bnVsbCwiaWQiOjYsImxvY2F0aW9uIjoiLyJ9LHsiZGVzY3JpcHRpb24iOiJBdXRvbWF0aWNhbGx5IGdlbmVyYXRlZCBjYXJkcy4iLCJhcmNoaXZlZCI6ZmFsc2UsInNsdWciOiJwcm9kdWN0c19kYXNoYm9hcmQiLCJjb2xvciI6IiNGMUI1NTYiLCJjYW5fd3JpdGUiOnRydWUsIm5hbWUiOiJQcm9kdWN0cyBEYXNoYm9hcmQiLCJwZXJzb25hbF9vd25lcl9pZCI6bnVsbCwiaWQiOjQsImxvY2F0aW9uIjoiLyJ9LHsiZGVzY3JpcHRpb24iOiJBdXRvbWF0aWNhbGx5IGdlbmVyYXRlZCBjYXJkcy4iLCJhcmNoaXZlZCI6ZmFsc2UsInNsdWciOiJyZXZpZXdzX2Rhc2hib2FyZCIsImNvbG9yIjoiI0E5ODlDNSIsImNhbl93cml0ZSI6dHJ1ZSwibmFtZSI6IlJldmlld3MgRGFzaGJvYXJkIiwicGVyc29uYWxfb3duZXJfaWQiOm51bGwsImlkIjo3LCJsb2NhdGlvbiI6Ii8ifSx7ImRlc2NyaXB0aW9uIjpudWxsLCJhcmNoaXZlZCI6ZmFsc2UsInNsdWciOiJzYW1wbGVfdXNlciVFMyU4MSU5NSVFMyU4MiU5MyVFMyU4MSVBRSVFMyU4MyU4RiVFMyU4MiU5QSVFMyU4MyVCQyVFMyU4MiVCRCVFMyU4MyU4QSVFMyU4MyVBQiVFMyU4MiVCMyVFMyU4MyVBQyVFMyU4MiVBRiVFMyU4MiVCNyVFMyU4MyVBNyVFMyU4MyVCMyIsImNvbG9yIjoiIzMxNjk4QSIsImNhbl93cml0ZSI6dHJ1ZSwibmFtZSI6IlNhbXBsZSBVc2Vy44GV44KT44Gu44OR44O844K944OK44Or44Kz44Os44Kv44K344On44OzIiwicGVyc29uYWxfb3duZXJfaWQiOjIsImlkIjo4LCJsb2NhdGlvbiI6Ii8ifV0=
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "name": "Our analytics",
+            "id": "root",
+            "parent_id": null,
+            "effective_location": null,
+            "effective_ancestors": [
+
+            ],
+            "can_write": true
+          },
+          {
+            "description": null,
+            "archived": false,
+            "slug": "admin_user%E3%81%95%E3%82%93%E3%81%AE%E3%83%8F%E3%82%9A%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3",
+            "color": "#31698A",
+            "can_write": true,
+            "name": "Admin Userさんのパーソナルコレクション",
+            "personal_owner_id": 1,
+            "id": 1,
+            "location": "/"
+          },
+          {
+            "description": null,
+            "archived": false,
+            "slug": "metabaseruby",
+            "color": "#509EE3",
+            "can_write": true,
+            "name": "MetabaseRuby",
+            "personal_owner_id": null,
+            "id": 2,
+            "location": "/"
+          },
+          {
+            "description": "Automatically generated cards.",
+            "archived": false,
+            "slug": "orders_dashboard",
+            "color": "#A989C5",
+            "can_write": true,
+            "name": "Orders Dashboard",
+            "personal_owner_id": null,
+            "id": 5,
+            "location": "/"
+          },
+          {
+            "description": "Automatically generated cards.",
+            "archived": false,
+            "slug": "people_dashboard",
+            "color": "#9CC177",
+            "can_write": true,
+            "name": "People Dashboard",
+            "personal_owner_id": null,
+            "id": 6,
+            "location": "/"
+          },
+          {
+            "description": "Automatically generated cards.",
+            "archived": false,
+            "slug": "products_dashboard",
+            "color": "#F1B556",
+            "can_write": true,
+            "name": "Products Dashboard",
+            "personal_owner_id": null,
+            "id": 4,
+            "location": "/"
+          },
+          {
+            "description": "Automatically generated cards.",
+            "archived": false,
+            "slug": "reviews_dashboard",
+            "color": "#A989C5",
+            "can_write": true,
+            "name": "Reviews Dashboard",
+            "personal_owner_id": null,
+            "id": 7,
+            "location": "/"
+          },
+          {
+            "description": null,
+            "archived": false,
+            "slug": "sample_user%E3%81%95%E3%82%93%E3%81%AE%E3%83%8F%E3%82%9A%E3%83%BC%E3%82%BD%E3%83%8A%E3%83%AB%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3",
+            "color": "#31698A",
+            "can_write": true,
+            "name": "Sample Userさんのパーソナルコレクション",
+            "personal_owner_id": 2,
+            "id": 8,
+            "location": "/"
+          }
+        ]
   recorded_at: Sun, 07 Jun 2020 06:41:31 GMT
 recorded_with: VCR 6.0.0

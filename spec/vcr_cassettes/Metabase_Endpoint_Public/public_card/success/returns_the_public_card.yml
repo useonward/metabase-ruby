@@ -50,7 +50,22 @@ http_interactions:
       Server:
       - Jetty(9.4.27.v20200227)
     body:
-      encoding: ASCII-8BIT
-      string: '{"id":1,"name":"Orders quantity >= 50","description":"quantity >= 50","display":"table","visualization_settings":{"table.pivot_column":"DISCOUNT","table.cell_column":"QUANTITY"},"dataset_query":{"type":"query"},"param_values":null,"param_fields":null}'
+      encoding: UTF-8
+      string: |-
+        {
+          "id": 1,
+          "name": "Orders quantity >= 50",
+          "description": "quantity >= 50",
+          "display": "table",
+          "visualization_settings": {
+            "table.pivot_column": "DISCOUNT",
+            "table.cell_column": "QUANTITY"
+          },
+          "dataset_query": {
+            "type": "query"
+          },
+          "param_values": null,
+          "param_fields": null
+        }
   recorded_at: Sun, 07 Jun 2020 06:41:28 GMT
 recorded_with: VCR 6.0.0

@@ -110,9 +110,51 @@ http_interactions:
       Server:
       - Jetty(9.4.27.v20200227)
     body:
-      encoding: ASCII-8BIT
-      string: '[{"email":"mb@example.com","ldap_auth":false,"first_name":"Admin","last_login":"2020-06-07T06:41:30.495","is_active":true,"is_qbnewb":false,"updated_at":"2020-06-07T06:41:30.495","group_ids":[1,2],"is_superuser":true,"login_attributes":null,"id":1,"last_name":"User","date_joined":"2020-06-07T05:20:41.859","personal_collection_id":1,"common_name":"Admin
-        User","google_auth":false},{"email":"mb1@example.com","ldap_auth":false,"first_name":"Sample","last_login":"2020-06-07T05:52:12.144","is_active":true,"is_qbnewb":true,"updated_at":"2020-06-07T05:52:12.144","group_ids":[1,4],"is_superuser":false,"login_attributes":null,"id":2,"last_name":"User","date_joined":"2020-06-07T05:50:07.112","personal_collection_id":8,"common_name":"Sample
-        User","google_auth":false}]'
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "email": "mb@example.com",
+            "ldap_auth": false,
+            "first_name": "Admin",
+            "last_login": "2020-06-07T06:41:30.495",
+            "is_active": true,
+            "is_qbnewb": false,
+            "updated_at": "2020-06-07T06:41:30.495",
+            "group_ids": [
+              1,
+              2
+            ],
+            "is_superuser": true,
+            "login_attributes": null,
+            "id": 1,
+            "last_name": "User",
+            "date_joined": "2020-06-07T05:20:41.859",
+            "personal_collection_id": 1,
+            "common_name": "Admin User",
+            "google_auth": false
+          },
+          {
+            "email": "mb1@example.com",
+            "ldap_auth": false,
+            "first_name": "Sample",
+            "last_login": "2020-06-07T05:52:12.144",
+            "is_active": true,
+            "is_qbnewb": true,
+            "updated_at": "2020-06-07T05:52:12.144",
+            "group_ids": [
+              1,
+              4
+            ],
+            "is_superuser": false,
+            "login_attributes": null,
+            "id": 2,
+            "last_name": "User",
+            "date_joined": "2020-06-07T05:50:07.112",
+            "personal_collection_id": 8,
+            "common_name": "Sample User",
+            "google_auth": false
+          }
+        ]
   recorded_at: Sun, 07 Jun 2020 06:41:30 GMT
 recorded_with: VCR 6.0.0
