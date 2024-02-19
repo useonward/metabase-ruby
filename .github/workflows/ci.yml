@@ -24,4 +24,4 @@ jobs:
           key: ${{ runner.os }}-ruby${{ matrix.ruby }}-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-ruby${{ matrix.ruby }}-
       - run: bundle install
-      - run: bundle exec rake spec
+      - run: bundle exec rspec --format documentation
