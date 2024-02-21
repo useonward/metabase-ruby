@@ -110,8 +110,24 @@ http_interactions:
       Server:
       - Jetty(9.4.27.v20200227)
     body:
-      encoding: ASCII-8BIT
-      string: '[{"id":2,"name":"Administrators","member_count":1},{"id":1,"name":"All
-        Users","member_count":2},{"id":4,"name":"MetabaseRuby","member_count":1}]'
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": 2,
+            "name": "Administrators",
+            "member_count": 1
+          },
+          {
+            "id": 1,
+            "name": "All Users",
+            "member_count": 2
+          },
+          {
+            "id": 4,
+            "name": "MetabaseRuby",
+            "member_count": 1
+          }
+        ]
   recorded_at: Sun, 07 Jun 2020 06:41:31 GMT
 recorded_with: VCR 6.0.0

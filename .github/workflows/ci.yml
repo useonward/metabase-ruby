@@ -1,10 +1,6 @@
 name: CI
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
+on: [push]
 
 jobs:
   test:
@@ -12,10 +8,8 @@ jobs:
     strategy:
       matrix:
         ruby:
+          - "3.2"
           - '3.0'
-          - '2.7'
-          - '2.6'
-          - '2.5'
     container:
       image: ruby:${{ matrix.ruby }}
       env:
@@ -29,9 +23,5 @@ jobs:
           path: vendor/bundle
           key: ${{ runner.os }}-ruby${{ matrix.ruby }}-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-ruby${{ matrix.ruby }}-
-      - name: Install gems
-        run: gem install bundler && bundle install
-      - name: Rubocop
-        run: bundle exec rubocop
-      - name: RSpec
-        run: bundle exec rake spec
+      - run: bundle install
+      - run: bundle exec rspec --format documentation

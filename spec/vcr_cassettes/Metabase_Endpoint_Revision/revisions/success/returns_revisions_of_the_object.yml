@@ -110,9 +110,46 @@ http_interactions:
       Server:
       - Jetty(9.4.27.v20200227)
     body:
-      encoding: ASCII-8BIT
-      string: '[{"description":"changed collection_id from \"null\" to \"2\".","is_creation":false,"id":2,"is_reversion":false,"timestamp":"2020-06-07T05:37:53.829","user":{"id":1,"first_name":"Admin","last_name":"User","common_name":"Admin
-        User"},"message":null,"diff":{"before":{"collection_id":null},"after":{"collection_id":2}}},{"description":null,"is_creation":true,"id":1,"is_reversion":false,"timestamp":"2020-06-07T05:36:28.829","user":{"id":1,"first_name":"Admin","last_name":"User","common_name":"Admin
-        User"},"message":null,"diff":null}]'
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "description": "changed collection_id from \"null\" to \"2\".",
+            "is_creation": false,
+            "id": 2,
+            "is_reversion": false,
+            "timestamp": "2020-06-07T05:37:53.829",
+            "user": {
+              "id": 1,
+              "first_name": "Admin",
+              "last_name": "User",
+              "common_name": "Admin User"
+            },
+            "message": null,
+            "diff": {
+              "before": {
+                "collection_id": null
+              },
+              "after": {
+                "collection_id": 2
+              }
+            }
+          },
+          {
+            "description": null,
+            "is_creation": true,
+            "id": 1,
+            "is_reversion": false,
+            "timestamp": "2020-06-07T05:36:28.829",
+            "user": {
+              "id": 1,
+              "first_name": "Admin",
+              "last_name": "User",
+              "common_name": "Admin User"
+            },
+            "message": null,
+            "diff": null
+          }
+        ]
   recorded_at: Sun, 07 Jun 2020 06:41:30 GMT
 recorded_with: VCR 6.0.0
